@@ -17,4 +17,3 @@ spec:
           image: acrdigwimicrotodoappdev.azurecr.io/todo-ui:v3
           ports:
             - containerPort: 80
-         
