@@ -17,12 +17,4 @@ spec:
           image: acrdigwimicrotodoappdev.azurecr.io/todo-ui:v2
           ports:
             - containerPort: 80
-          env:
-            - name: REACT_APP_GET_TASKS_API_BASE_URL
-              value: "http://get.digwi.online"
-
-            - name: REACT_APP_DELETE_TASK_API_BASE_URL
-              value: "http://delete.digwi.online"
-
-            - name: REACT_APP_CREATE_TASK_API_BASE_URL
-              value: "http://add.digwi.online"
+         
